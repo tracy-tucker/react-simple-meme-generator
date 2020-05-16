@@ -15,7 +15,7 @@ class MemeGenerator extends React.Component {
   render() {
     return (
       <div>
-        <p>testing</p>
+        <h1>Meme Generator</h1>
       </div>
     );
   }
