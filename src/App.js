@@ -4,11 +4,13 @@ import "./styles.css";
 import Header from "./components/Header";
 import MemeGenerator from "./components/MemeGenerator";
 
-export default function App() {
+function App() {
   return (
     <div className="App">
       <Header />
-      <MemeGenerator />
+      {/* <MemeGenerator /> */}
     </div>
   );
 }
+
+export default App;
