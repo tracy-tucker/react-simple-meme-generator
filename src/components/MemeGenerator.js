@@ -22,10 +22,10 @@ class MemeGenerator extends Component {
       });
   }
 
-  handleChange(event) {
+  handleChange = event => {
     const { name, value } = event.target;
     this.setState({ [name]: value });
-  }
+  };
 
   /**
    * Create a method that, when the "Gen" button is clicked, chooses one of the
